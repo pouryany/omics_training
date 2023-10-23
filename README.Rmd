@@ -49,7 +49,7 @@ you may have about the codes.
     - Introduction to Git, a distributed version control system.
     - Overview of GitHub, a popular platform for hosting Git repositories and collaborating with others.
 
-    ### Basic genomics
+### Basic genomics
 
 5. **Introduction to Sequencing Technologies**
     - Overview of RNA-Seq and DNA-Seq technology.
