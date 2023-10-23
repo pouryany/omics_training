@@ -144,7 +144,6 @@ Here are the steps to install both R and RStudio:
         R packages (libraries) using the `install.packages()` function.
         For example, to install the `ggplot2` package, you would run
         `install.packages("ggplot2")` in the R console.
-
     -   **Bioconductor Packages:** Bioconductor is a major project to
         standardize the development, support, and release of
         Bioinformatics software packages. After installing Bioconductor
@@ -155,29 +154,23 @@ Here are the steps to install both R and RStudio:
         <https://www.bioconductor.org/install/>. Example Bioconductor
         package installation bellow.
 
-              ```r
-              if (!require("BiocManager", quietly = TRUE))
-                  install.packages("BiocManager")
-              BiocManager::install("PanomiR")
-              ```
+<!-- -->
 
-    -   **Github Packages:** Some packages are only available through
-        GitHub, mainly because they are still in development. This
-        packages can be installed using `devtools`. First, install the
-        `devtools` library. Next, provide a GitHub address to install a
-        specific package. See example below.
+    if (!require("BiocManager", quietly = TRUE))
+        install.packages("BiocManager")
+    BiocManager::install("PanomiR")
 
-              ```r
-              devtools::install_github("pouryany/PanomiR")
-              ```
+    - **Github Packages:** Some packages are only available through GitHub, mainly because they are still in development. This packages can be installed using `devtools`. First, install the `devtools` library. Next, provide a GitHub address to install a specific package. See example below. 
 
-        ### Additional advanced tips
+    devtools::install_github("pouryany/PanomiR")
 
-3.  **Having multiple versions of R:** Sometimes you may need to work
+### Additional advanced tips
+
+1.  **Having multiple versions of R:** Sometimes you may need to work
     with multiple versions of R. Use RSwitch to manage multiple versions
     of R <https://rud.is/rswitch/>.
 
-4.  **More on installing R and R packages:** Use the following book to
+2.  **More on installing R and R packages:** Use the following book to
     read and learn more about installing R and related packages
     <https://rstudio-education.github.io/hopr/starting.html#how-to-download-and-install-r>.
 
