@@ -144,6 +144,7 @@ Here are the steps to install both R and RStudio:
         R packages (libraries) using the `install.packages()` function.
         For example, to install the `ggplot2` package, you would run
         `install.packages("ggplot2")` in the R console.
+
     -   **Bioconductor Packages:** Bioconductor is a major project to
         standardize the development, support, and release of
         Bioinformatics software packages. After installing Bioconductor
@@ -154,15 +155,17 @@ Here are the steps to install both R and RStudio:
         <https://www.bioconductor.org/install/>. Example Bioconductor
         package installation bellow.
 
-<!-- -->
+            if (!require("BiocManager", quietly = TRUE))
+                install.packages("BiocManager")
+            BiocManager::install("PanomiR")
 
-    if (!require("BiocManager", quietly = TRUE))
-        install.packages("BiocManager")
-    BiocManager::install("PanomiR")
+    -   **Github Packages:** Some packages are only available through
+        GitHub, mainly because they are still in development. This
+        packages can be installed using `devtools`. First, install the
+        `devtools` library. Next, provide a GitHub address to install a
+        specific package. See example below.
 
-    - **Github Packages:** Some packages are only available through GitHub, mainly because they are still in development. This packages can be installed using `devtools`. First, install the `devtools` library. Next, provide a GitHub address to install a specific package. See example below. 
-
-    devtools::install_github("pouryany/PanomiR")
+            devtools::install_github("pouryany/PanomiR")
 
 ### Additional advanced tips
 
