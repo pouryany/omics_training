@@ -23,8 +23,6 @@ you may have about the codes.
 
 
 ## Tentative topics
-
-
 ### System setup
 
 1. **Setting Up R and RStudio**
@@ -114,3 +112,44 @@ you may have about the codes.
     - Discuss emerging trends in functional genomics research, such as single-cell multi-omics and spatial transcriptomics.
     - Consider the potential impact of functional genomics on personalized medicine.
 
+
+## Setting Up R and RStudio
+
+### Basic installation
+Here are the steps to install both R and RStudio:
+
+1. **Download R:** Visit the CRAN (Comprehensive R Archive Network) website: [https://cran.r-project.org/](https://cran.r-project.org/). Choose and install the appropriate version of R for your operating system (Windows, macOS, or Linux).
+
+2. **Download RStudio:** Go to the RStudio download page: [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/). Select the RStudio Desktop version that is compatible with your operating system.
+
+### Pro tips
+
+1. **Check R Installation:** In RStudio, you can verify that R is correctly installed by opening the R console in the bottom-left panel and typing `R.version` and pressing Enter.
+
+2. **Install Packages:** There are three main sources of installing R packages
+    - **CRAN Packages:** There are common R libraries. You can install R packages (libraries) using the `install.packages()` function. For example, to install the `ggplot2` package, you would run `install.packages("ggplot2")` in the R console.
+    - **Bioconductor Packages:** Bioconductor is a major project to standardize the development, support, and release of Bioinformatics software packages. After installing Bioconductor manager package in R (using `install.packages("BiocManager")`), you can install specific Bioconductor packages using `BiocManager::install("package name")` command. Read more on Bioconductor packages here: [https://www.bioconductor.org/install/](https://www.bioconductor.org/install/). Example Bioconductor package installation bellow. 
+    ```{r PanomiR, eval = FALSE}
+    if (!require("BiocManager", quietly = TRUE))
+        install.packages("BiocManager")
+    BiocManager::install("PanomiR")
+    ```
+
+
+
+
+
+
+**Using R and RStudio:**
+
+Once both R and RStudio are installed:
+
+1. **Open RStudio:** Launch RStudio from your applications menu or desktop shortcut.
+
+2. **Check R Installation:** In RStudio, you can verify that R is correctly installed by opening the R console in the bottom-left panel and typing `R.version` and pressing Enter.
+
+3. **Start Coding:** You can now start writing and running R code in RStudio. The top-left panel is the script editor where you can write your R code, and the bottom-right panel is the console where you can execute R commands.
+
+4. **Install Packages:** You can install R packages (libraries) using the `install.packages()` function. For example, to install the `ggplot2` package, you would run `install.packages("ggplot2")` in the R console.
+
+That's it! You should now have R and RStudio set up on your computer, ready for data analysis and scripting in the R programming language.
