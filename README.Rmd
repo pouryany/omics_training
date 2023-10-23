@@ -49,65 +49,56 @@ you may have about the codes.
     - Introduction to Git, a distributed version control system.
     - Overview of GitHub, a popular platform for hosting Git repositories and collaborating with others.
 
-
-
-
-### Basic genomics
-
-
+    ### Basic genomics
 
 5. **Introduction to Sequencing Technologies**
-   - Overview of RNA-Seq and DNA-Seq technology.
-   - The process of library preparation, sequencing, and data acquisition.
-   - Applications in quantifying gene expression and alternative splicing.
+    - Overview of RNA-Seq and DNA-Seq technology.
+    - The process of library preparation, sequencing, and data acquisition.
+    - Applications in quantifying gene expression and alternative splicing.
 
 6. **Introduction to RNA-Seq for gene expression analysis**
-   - Reading and inspecting RNA-Seq data.
-   - Preliminary QC: outlier detection and normalization.
-   - Basic differetial expression analysis.
-   - Understanding batch effects.
+    - Reading and inspecting RNA-Seq data.
+    - Preliminary QC: outlier detection and normalization.
+    - Basic differetial expression analysis.
+    - Understanding batch effects.
 
 7. **Functional Annotation and Analysis**
-   - Introduction to gene ontology (GO), pathways, and functional annotation terms.
-   - How functional annotation helps in understanding the roles of genes.
-   - Resources for accessing functional annotation data.
-   - How pathway analysis tools help in understanding complex biological processes.
-   - Examples of pathway analysis in disease research.
-
-
+    - Introduction to gene ontology (GO), pathways, and functional annotation terms.
+    - How functional annotation helps in understanding the roles of genes.
+    - Resources for accessing functional annotation data.
+    - How pathway analysis tools help in understanding complex biological processes.
+    - Examples of pathway analysis in disease research.
+    
 8. **Genomics Databases**
-   - Introduction to databases like Gene Expression Omnibus (GEO) and The Cancer Genome Atlas (TCGA).
-   - How to access and retrieve genomics data from these resources.
-   - Real-world examples of studies using publicly available datasets.
+    - Introduction to databases like Gene Expression Omnibus (GEO) and The Cancer Genome Atlas (TCGA).
+    - How to access and retrieve genomics data from these resources.
+    - Real-world examples of studies using publicly available datasets.
 
 9. **Analyzing Whole Genome and/or Exome Sequencing**
-   - Overview of how WGS/WES reveals heterogeneity within cell populations.
-   - Applications in developmental biology, immunology, and cancer research.
-
+    - Overview of how WGS/WES reveals heterogeneity within cell populations.
+    - Applications in developmental biology, immunology, and cancer research.
+    
 10. **RNA-Seq Module 2**
-   - Small RNA-Seq.
-   - Alternative Splicing.
-   - Modeling complex statistical designs.
-   - Batch effect correction methods.
-   - Unsupervised clustering algorithms.
-
+    - Small RNA-Seq.
+    - Alternative Splicing.
+    - Modeling complex statistical designs.
+    - Batch effect correction methods.
+    - Unsupervised clustering algorithms.
 
 11. **Functional Analysis Module 2**
-   - Advanced pathway analysis.
-   - Analysis for gene interaction networks.
-
+    - Advanced pathway analysis.
+    - Analysis for gene interaction networks.
 
 12. **Sequencing DNA Methylation and Chromatic accessibility**
-   - ATAC-Seq
-   - DNA-Methylation arrays and Bisulfite Sequencing.
-   - Functional analysis of ATAC-Seq and Methylation data.
-   
+    - ATAC-Seq
+    - DNA-Methylation arrays and Bisulfite Sequencing.
+    - Functional analysis of ATAC-Seq and Methylation data.
 
 13. **Single-Cell Genomics**
-   - Overview of single-cell RNA sequencing (scRNA-Seq) and its importance.
-   - How scRNA-Seq reveals heterogeneity within cell populations.
-   - Applications in developmental biology, immunology, and cancer research.
-   
+    - Overview of single-cell RNA sequencing (scRNA-Seq) and its importance.
+    - How scRNA-Seq reveals heterogeneity within cell populations.
+    - Applications in developmental biology, immunology, and cancer research.
+
 14. **Integration of Multi-Omics Data**
     - Explanation of multi-omics approaches (genomics, transcriptomics, proteomics, metabolomics).
     - How integrating different types of omics data provides a holistic view of biology.
