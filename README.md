@@ -19,7 +19,12 @@ suggestions you may have about the codes.
     -   Installation of RStudio, a user-friendly integrated development
         environment (IDE) for R.
     -   Basic orientation to the RStudio interface and its features.
-2.  **Setting Up Python and Jupyter Notebook**
+2.  **Introduction to R Scripting**
+    -   Basic operations in R.
+    -   Basic data analysis with R
+    -   Tidyverse and dplyr.
+    -   Visualization.
+3.  **Setting Up Python and Jupyter Notebook**
     -   Installation of Python, a versatile programming language widely
         used in bioinformatics.
     -   Installation of Anaconda, a distribution of Python that includes
@@ -28,12 +33,12 @@ suggestions you may have about the codes.
         dependencies.
     -   Introduction to Jupyter Notebook, an interactive web-based
         environment for data analysis.
-3.  **Introduction to Bash Scripting**
+4.  **Introduction to Bash Scripting**
     -   Overview of the Bash shell and its importance in bioinformatics.
     -   Basic commands and navigation within the command-line interface.
     -   Understanding file systems, directories, and paths in a
         Unix-like environment.
-4.  **Introduction to GitHub and Version Control**
+5.  **Introduction to GitHub and Version Control**
     -   Understanding the importance of version control in collaborative
         coding and data analysis.
     -   Introduction to Git, a distributed version control system.
@@ -126,7 +131,7 @@ Here are the steps to install both R and RStudio:
     RStudio Desktop version that is compatible with your operating
     system.
 
-### Pro tips
+### Useful tips
 
 1.  **Check R Installation:** In RStudio, you can verify that R is
     correctly installed by opening the R console in the bottom-left
@@ -139,6 +144,7 @@ Here are the steps to install both R and RStudio:
         R packages (libraries) using the `install.packages()` function.
         For example, to install the `ggplot2` package, you would run
         `install.packages("ggplot2")` in the R console.
+
     -   **Bioconductor Packages:** Bioconductor is a major project to
         standardize the development, support, and release of
         Bioinformatics software packages. After installing Bioconductor
@@ -149,32 +155,31 @@ Here are the steps to install both R and RStudio:
         <https://www.bioconductor.org/install/>. Example Bioconductor
         package installation bellow.
 
-    <!-- -->
+              ```r
+              if (!require("BiocManager", quietly = TRUE))
+                  install.packages("BiocManager")
+              BiocManager::install("PanomiR")
+              ```
 
-        if (!require("BiocManager", quietly = TRUE))
-            install.packages("BiocManager")
-        BiocManager::install("PanomiR")
+    -   **Github Packages:** Some packages are only available through
+        GitHub, mainly because they are still in development. This
+        packages can be installed using `devtools`. First, install the
+        `devtools` library. Next, provide a GitHub address to install a
+        specific package. See example below.
 
-**Using R and RStudio:**
+              ```r
+              devtools::install_github("pouryany/PanomiR")
+              ```
 
-Once both R and RStudio are installed:
+        ### Additional advanced tips
 
-1.  **Open RStudio:** Launch RStudio from your applications menu or
-    desktop shortcut.
+3.  **Having multiple versions of R:** Sometimes you may need to work
+    with multiple versions of R. Use RSwitch to manage multiple versions
+    of R <https://rud.is/rswitch/>.
 
-2.  **Check R Installation:** In RStudio, you can verify that R is
-    correctly installed by opening the R console in the bottom-left
-    panel and typing `R.version` and pressing Enter.
-
-3.  **Start Coding:** You can now start writing and running R code in
-    RStudio. The top-left panel is the script editor where you can write
-    your R code, and the bottom-right panel is the console where you can
-    execute R commands.
-
-4.  **Install Packages:** You can install R packages (libraries) using
-    the `install.packages()` function. For example, to install the
-    `ggplot2` package, you would run `install.packages("ggplot2")` in
-    the R console.
+4.  **More on installing R and R packages:** Use the following book to
+    read and learn more about installing R and related packages
+    <https://rstudio-education.github.io/hopr/starting.html#how-to-download-and-install-r>.
 
 That’s it! You should now have R and RStudio set up on your computer,
 ready for data analysis and scripting in the R programming language.
