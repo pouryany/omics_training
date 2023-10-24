@@ -178,12 +178,16 @@ Here are the steps to install both R and RStudio:
     <https://rstudio-education.github.io/hopr/starting.html#how-to-download-and-install-r>.
 
 That’s it! You should now have R and RStudio set up on your computer,
-ready for data analysis and scripting in the R programming language. \##
-Introduction to R Scripting \### Basic operations in R **Learning
-Outcomes:** - Getting familiar with R console. - Basic operations
-(adding, subtracting, logical subsetting) - Basic data strcutures in R
-(lists, vectors, data frames, matrices) - Importing and exporting data
-in R
+ready for data analysis and scripting in the R programming language.
+
+## Introduction to R Scripting
+
+### Basic operations in R
+
+**Learning Outcomes:** - Getting familiar with R console. - Basic
+operations (adding, subtracting, logical subsetting) - Basic data
+strcutures in R (lists, vectors, data frames, matrices) - Importing and
+exporting data in R
 
 **Resources:** - [Hands-on Programming with
 R](https://rstudio-education.github.io/hopr/) - Basic R [Babraham
@@ -191,5 +195,9 @@ introduction to core
 R](https://www.bioinformatics.babraham.ac.uk/training.html#rintro) -
 [Babraham advaned course booklet on
 R](https://www.bioinformatics.babraham.ac.uk/training/Advanced_R_Course/Advanced%20R%20course%20booklet.pdf)
-\### Basic data analysis with R \### Tidyverse and dplyr. \###
-Visualization.
+
+### Basic data analysis with R
+
+### Tidyverse and dplyr
+
+### Visualization
