@@ -157,15 +157,13 @@ That's it! You should now have R and RStudio set up on your computer, ready for 
 
 ### Basic operations in R
 
-**Learning Outcomes:**
-
+1. **Learning Outcomes:**
     - Getting familiar with R console.
     - Basic operations (adding, subtracting, logical subsetting)
     - Basic data strcutures in R (lists, vectors, data frames, matrices)
     - Importing and exporting data in R
 
-**Resources:**
-
+2. **Resources:**
     - [Hands-on Programming with R](https://rstudio-education.github.io/hopr/)
     - Basic R [Babraham introduction to core R](https://www.bioinformatics.babraham.ac.uk/training.html#rintro)
     - [Babraham advaned course booklet on R](https://www.bioinformatics.babraham.ac.uk/training/Advanced_R_Course/Advanced%20R%20course%20booklet.pdf)
